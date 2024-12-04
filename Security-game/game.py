@@ -14,7 +14,6 @@ def simulate_attack(team_budget, team_security_features, name):
         {"name": "Social Engineering", "security_features": ["Security Awareness Training", "Multi-Factor Authentication"], "impact": 150000}, # Average cost of social engineering (Source: Ponemon Institute)
         {"name": "SQL Injection", "security_features": ["Web Application Firewall", "Code Review"], "impact": 160000}, # Average cost of an SQL injection attack (Source: OWASP)
         {"name": "Zero-Day Exploit", "security_features": ["Vulnerability Scanning", "Patch Management"], "impact": 2000000}, # Average cost of a zero-day exploit (Source: Cybersecurity Ventures)
-        # Add more/edit attacks as needed
     ]
     name": "Zero-Day Exploit", "security_features": ["Vulnerability Scanning", "Patch Management"], "impact": 2000000
     attack = random.choice(attacks)
