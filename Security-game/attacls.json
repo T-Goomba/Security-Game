@@ -8,10 +8,15 @@
     {
       "name": "Malware Infection",
       "security_features": ["Antivirus", "Firewall"],
-      "impact": 800
+      "impact": 801
     },
     {
       "name": "Data Breach",
+      "security_features": ["Encryption", "Intrusion Detection System"],
+      "impact": 1500
+    },
+        {
+      "name": "Cyber attack",
       "security_features": ["Encryption", "Intrusion Detection System"],
       "impact": 1500
     }
